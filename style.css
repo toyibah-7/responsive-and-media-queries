@@ -1,0 +1,84 @@
+@import url("https://fonts.google.com/specimen/Poppins")
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+} 
+body{
+ background-image:url("bg-intro-desktop.png");
+  font-size:16px;
+font-family:'Poppins';}
+
+
+
+@media screen and (max-width:375pxpx) {
+  .bgImage {
+    background: url("bg-intro-mobile.png");
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .bgImage {
+    background: url("bg-intro-desktop.png");
+  }
+}
+main{
+  padding-left:80px;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+height:100vh;
+}
+
+.left-intro{
+  width:500px;
+  color:hsl(248, 32%, 49%)
+}
+.left-intro-h1{
+  height:100px;
+  font-weight:700px;
+}
+
+.top{
+  border:1px solid  hsl(248, 32%, 49%);
+  background-color: hsl(248, 32%, 49%);
+  border-radius:3px;
+ font-weight:500px;
+  text-align:center;
+  border-width:10px;
+  
+}
+input{
+  border-radius:5px;
+  border:2px solid #858080;
+  padding:10px;
+  padding-left:5px;
+  width:300px;
+  align-items:center;
+  font-weight:400px;
+}
+
+input.submit{
+  background-color:hsl(154, 59%, 51%)
+
+}
+
+a{
+  color:hsl(0, 100%, 74%) 
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.sign-up-details{
+  border:2px solid #dfd8d8;
+  border-radius:3px;
+  background-color:white;
+  padding:25px;
+  width:350px;
+}
+  
